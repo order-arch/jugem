@@ -6,14 +6,14 @@
 
 ## 1. サイトを公開する（1回だけ・5分）
 
-1. <https://github.com/order-arch/AI-agent/settings/pages> を開く
+1. <https://github.com/order-arch/jugem/settings/pages> を開く
 2. **Build and deployment** → **Source** を `GitHub Actions` にする
 3. 数分待つ
 
 これで公開されます。これが **お客様用URL** です。誰でも無料で見られます。
 
 ```
-https://order-arch.github.io/AI-agent/
+https://order-arch.github.io/jugem/
 ```
 
 > GitHubの表示を日本語に自動翻訳していると、メニュー名が上記と変わります
@@ -26,7 +26,7 @@ https://order-arch.github.io/AI-agent/
 更新ページは公開URLの後ろに `admin/` を付けたアドレスです。
 
 ```
-https://order-arch.github.io/AI-agent/admin/
+https://order-arch.github.io/jugem/admin/
 ```
 
 ここを **本人専用URL** としてブックマークしてください。
@@ -48,7 +48,7 @@ https://order-arch.github.io/AI-agent/admin/
 | 項目 | 入れる値 |
 |---|---|
 | オーナー | `order-arch` |
-| リポジトリ | `AI-agent` |
+| リポジトリ | `jugem` |
 | ブランチ | `claude/artist-portfolio-lp-d32xhg` |
 | トークン | 発行した `github_pat_…` |
 
