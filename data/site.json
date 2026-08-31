@@ -1,0 +1,75 @@
+{
+  "name": "JUGEM",
+  "nameJa": "ジュゲム",
+  "role": "Composer / Artist",
+  "roleJa": "作曲家・アーティスト",
+  "location": "Tokyo, Japan",
+  "catch": "ジャンルを渡り歩く、東京のサウンドクリエイター。",
+  "about": [
+    "東京を拠点に活動する作曲家 / アーティスト。ヒップホップ、ロック、ポップスを横断し、作曲・編曲からレコーディング、ミックス、マスタリングまでを一貫して手がける。",
+    "BMSG所属のラッパー Novel Core の楽曲制作をレギュラーで担当。メジャー4thアルバム『PERFECTLY DEFECTiVE』(2026.1.14) では全14曲中13曲のサウンドプロデュースを共同で手がけ、同作は Billboard JAPAN ダウンロードアルバムで首位を走行。初のアリーナ単独公演『\"BRAIN LAND\" at K-Arena Yokohama』(2025.2.11) では公演用トラック制作とバンドアレンジを担い、ギターとしても出演した。",
+    "ほかに INI 尾崎匠海、LIL LEAGUE from EXILE TRIBE、edhiii boi、零 (L.E.I.)、SG などへ楽曲を提供。アニメ『刃牙道』エンディングテーマ、映画『名無し』主題歌などのタイアップ楽曲、東海オンエアの動画内楽曲のコライトまで、フィールドを問わず制作している。"
+  ],
+  "services": [
+    "楽曲提供 / 作曲・編曲",
+    "サウンドプロデュース",
+    "レコーディング / ミックス / マスタリング",
+    "ライブ用トラック制作 / バンドアレンジ",
+    "ギター（レコーディング・ライブ）"
+  ],
+  "email": "jugem.works@gmail.com",
+  "links": [
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/jugemofficial/"
+    },
+    {
+      "label": "X",
+      "url": "https://x.com/JUGEM_MUSIC"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@jugem_music"
+    },
+    {
+      "label": "foriio",
+      "url": "https://www.foriio.com/jugem-music"
+    }
+  ],
+  "fanFormUrl": "",
+  "analytics": {
+    "provider": "",
+    "id": "",
+    "dashboardUrl": ""
+  },
+  "affiliate": {
+    "amazonTag": "",
+    "appleToken": "",
+    "rakutenId": "",
+    "disclosure": "このセクションにはアフィリエイトリンクが含まれます。"
+  },
+  "clients": [
+    "Novel Core",
+    "edhiii boi",
+    "INI 尾崎匠海",
+    "LIL LEAGUE from EXILE TRIBE",
+    "零 / L.E.I.",
+    "SG",
+    "東海オンエア"
+  ],
+  "featured": {
+    "eyebrow": "SOUND PRODUCE",
+    "artist": "Novel Core",
+    "title": "PERFECTLY DEFECTiVE",
+    "meta": "Major 4th Album　/　BMSG　/　2026.1.14",
+    "statNum": "13",
+    "statDen": "14",
+    "statLabel": "曲のサウンドプロデュースを担当（共同制作）",
+    "notes": [
+      "Billboard JAPAN ダウンロードアルバム首位走行（先ヨミ・発売週）",
+      "JESSE (RIZE / The BONEZ) 参加作品"
+    ],
+    "image": "https://i.ytimg.com/vi/pgXBL6KVPyg/maxresdefault.jpg",
+    "url": ""
+  }
+}

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JUGEM — 更新ページ（本人専用）</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&family=Zen+Old+Mincho&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/admin.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%23d8452c'/><text x='16' y='23' font-size='19' font-family='serif' fill='%23fff' text-anchor='middle'>J</text></svg>">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <span class="logo">JUGEM</span>
+    <span class="tag">更新ページ（本人専用）</span>
+    <span class="sp"></span>
+    <a class="btn ghost" href="../" target="_blank" rel="noopener">サイトを見る ↗</a>
+    <button class="btn ghost" id="tabSetup" type="button">接続設定</button>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <!-- ---------- paste box ---------- -->
+  <section class="paste">
+    <h1>リンクを貼るだけ。</h1>
+    <p class="sub">YouTube・記事・SNS投稿・商品ページ、どれでもOK。貼ると内容を自動で読み取って、置き場所も自動で選びます。</p>
+    <div class="row">
+      <input type="url" id="pasteInput" placeholder="https://youtu.be/..." autocomplete="off" spellcheck="false"
+             aria-label="追加したいリンク">
+      <button class="btn primary" id="pasteBtn" type="button">追加する</button>
+    </div>
+    <p class="status" id="pasteStatus" role="status" aria-live="polite"></p>
+  </section>
+
+  <!-- ---------- tabs ---------- -->
+  <nav class="tabs" id="tabs" role="tablist">
+    <button role="tab" data-tab="news"     aria-selected="true">最新情報 <span class="count" data-count="news"></span></button>
+    <button role="tab" data-tab="works"    aria-selected="false">実績 <span class="count" data-count="works"></span></button>
+    <button role="tab" data-tab="voices"   aria-selected="false">ファンの声 <span class="count" data-count="voices"></span></button>
+    <button role="tab" data-tab="picks"    aria-selected="false">愛用品 <span class="count" data-count="picks"></span></button>
+    <button role="tab" data-tab="access"   aria-selected="false">アクセス</button>
+    <button role="tab" data-tab="settings" aria-selected="false">プロフィール</button>
+  </nav>
+
+  <section id="pane-news"     class="pane"></section>
+  <section id="pane-works"    class="pane hide"></section>
+  <section id="pane-voices"   class="pane hide"></section>
+  <section id="pane-picks"    class="pane hide"></section>
+  <section id="pane-access"   class="pane hide"></section>
+  <section id="pane-settings" class="pane hide"></section>
+  <section id="pane-setup"    class="pane hide"></section>
+
+</div>
+
+<div class="savebar" id="savebar">
+  <div class="wrap">
+    <span class="msg" id="saveMsg"></span>
+    <button class="btn" id="discardBtn" type="button">変更を取り消す</button>
+    <button class="btn primary" id="publishBtn" type="button">公開する<span class="badge" id="saveBadge">0</span></button>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script type="module" src="../assets/js/admin.js"></script>
+</body>
+</html>
