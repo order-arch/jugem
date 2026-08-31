@@ -102,7 +102,7 @@ body::after {
   z-index: 55; pointer-events: none;
 }
 .edge.l { left: 0; background: linear-gradient(to right, var(--ink) 12%, transparent); }
-.edge.r { right: 0; background: linear-gradient(to left, var(--ink) 22%, transparent); }
+.edge.r { right: 0; width: clamp(70px, 13vw, 210px); background: linear-gradient(to left, var(--ink) 32%, transparent); }
 
 /* progress rail along the bottom edge */
 .progress {
