@@ -2,7 +2,9 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    # The admin page commits content to whichever branch the site is served from,
+    # so deploy from both the working branch and main once it exists.
+    branches: [main, claude/artist-portfolio-lp-d32xhg]
   workflow_dispatch:
 
 permissions:

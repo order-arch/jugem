@@ -6,12 +6,18 @@
 
 ## 1. サイトを公開する（1回だけ・5分）
 
-1. GitHub でこのリポジトリを開く
-2. 上のタブ **Settings** → 左メニュー **Pages**
-3. **Source** を `GitHub Actions` にする
-4. 数分待つと `https://<オーナー名>.github.io/<リポジトリ名>/` で公開されます
+1. <https://github.com/order-arch/AI-agent/settings/pages> を開く
+2. **Build and deployment** → **Source** を `GitHub Actions` にする
+3. 数分待つ
 
-これが **お客様用URL** です。誰でも無料で見られます。
+これで公開されます。これが **お客様用URL** です。誰でも無料で見られます。
+
+```
+https://order-arch.github.io/AI-agent/
+```
+
+> GitHubの表示を日本語に自動翻訳していると、メニュー名が上記と変わります
+> （Settings→「設定」、Pages→「ページ」など）。上のリンクを直接開けば迷いません。
 
 ---
 
@@ -20,7 +26,7 @@
 更新ページは公開URLの後ろに `admin/` を付けたアドレスです。
 
 ```
-https://<オーナー名>.github.io/<リポジトリ名>/admin/
+https://order-arch.github.io/AI-agent/admin/
 ```
 
 ここを **本人専用URL** としてブックマークしてください。
@@ -37,7 +43,17 @@ https://<オーナー名>.github.io/<リポジトリ名>/admin/
 2. **Repository access** → `Only select repositories` → このリポジトリを選ぶ
 3. **Permissions** → **Repository permissions** → **Contents** を **Read and write** にする
 4. **Generate token** を押して、出てきた `github_pat_…` をコピー
-5. 更新ページの「接続設定」に、オーナー名・リポジトリ名・ブランチ（`main`）・トークンを貼って「接続する」
+5. 更新ページの「接続設定」に貼って「接続する」
+
+| 項目 | 入れる値 |
+|---|---|
+| オーナー | `order-arch` |
+| リポジトリ | `AI-agent` |
+| ブランチ | `claude/artist-portfolio-lp-d32xhg` |
+| トークン | 発行した `github_pat_…` |
+
+> ブランチは「サイトが公開されているブランチ」を入れます。
+> あとで `main` に移した場合は `main` に変えてください。
 
 > 権限は Contents だけで十分です。それ以外は付けないでください。
 > 有効期限を設定した場合は、切れたら同じ手順で作り直してください。
